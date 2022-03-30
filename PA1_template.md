@@ -24,7 +24,7 @@ total.steps <- tapply(data$steps, data$date, FUN=sum, na.rm=TRUE)
 qplot(total.steps, binwidth=1000, xlab="total number of steps taken each day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
+![](figures/image-1.png)<!-- -->
 
 ```r
 mean(total.steps, na.rm=TRUE)
